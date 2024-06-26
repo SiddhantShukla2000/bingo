@@ -1,0 +1,1459 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* -------------------------------navbar start------------------- */
+.navbar-nav a {
+    padding: 20px 15px;
+    /* background-color: aqua; */
+    transition: all .5s ease;
+}
+
+.nav-link {
+    /* margin: 0px 10px; */
+    padding: 20px 15px !important;
+    font-size: 16px;
+    color: black !important;
+}
+.nav-item>a:hover{
+    color: #28ABE3 !important;
+}
+
+/* ---------------------------------navbar end-------------------------------------- */
+
+/* --------------------------------------------1st container start------------------------------ */
+.box1 {
+    position: relative;
+}
+
+.box2 {
+    /* height: 270px; */
+    /* width: 1000px; */
+    /* background-color: aqua; */
+
+    position: absolute;
+    top: 38%;
+    left: 15%;
+}
+
+.box2>h1 {
+    text-align: center;
+    margin: 30px 0px 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    /* padding: 0px 245px; */
+}
+
+.box2>p {
+    text-align: center;
+    margin: 0px 0px 15px;
+    /* padding: 0px 150px; */
+    color: white;
+
+}
+
+.box2>button {
+    display: block;
+    text-align: center;
+    padding: 12px 40px;
+    font-size: 14px;
+    color: white;
+    margin: 0px auto;
+    border-radius: 50px;
+    border: none;
+    background-color: #28ABE3;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .box2 {
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+
+    }
+
+    .box2 h1 {
+        font-size: 25px;
+        padding: 0px 35px;
+    }
+
+    .box2 p {
+        font-size: 14px;
+        padding: 0px 30px;
+    }
+
+    .box2>button {
+        padding: 6px 20px;
+
+    }
+}
+
+/* --------------------------------------------1st container end------------------------------ */
+/* --------------------------------------------------card start------------------------------------------ */
+.contant0 {
+    padding: 100px 0px;
+}
+
+.content {
+    padding: 25px 0px;
+}
+
+.content>h2 {
+    text-align: center;
+    margin: 0px 0px 8px;
+    word-spacing: 1;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600 !important;
+
+
+}
+
+.content>p {
+    /* position: relative; */
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #848484;
+}
+
+.content>p::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 70px;
+    color: #848484;
+    bottom: 0px;
+}
+
+.content2>.img {
+    padding: 0px 20px;
+}
+
+.content3 {
+    padding: 0px 15px;
+    /* background-color: #28ABE3; */
+    transition: all .5s ease;
+}
+
+.content4 {
+    height: 100%;
+    margin: 0px 0px 30px;
+    padding: 50px 20px;
+}
+
+.content5>span {
+    height: 55px;
+    width: 55px;
+    padding: 15px 0px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    transition: all .5s ease;
+
+    margin: 0px 0px 20px 175px;
+    background-color: #28ABE3;
+}
+
+.content5>h5 {
+    text-align: center;
+
+}
+
+.content5>p {
+    text-align: center;
+    color: #848484;
+}
+
+.content3:hover span {
+    color: #28ABE3;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+}
+
+.content3:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none !important;
+
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .img {
+        display: none;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .content5>span {
+        margin: 0px 65px 10px 129px;
+    }
+}
+
+
+
+
+/* --------------------------------------------------card end------------------------------------------ */
+
+/* <!-- ---------------------------------------------------Bingo Start--------------------------------------------------------------------------------- --> */
+.bingo {
+    padding: 100px 0px;
+    background-color: azure;
+}
+
+.bingo1 {
+    padding: 0px 15px 50px 15px;
+}
+
+.bingo1>h2 {
+    text-align: center;
+    margin: 0px 0px 8px;
+    color: #232323;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600 !important;
+}
+
+.bingo1>p {
+    text-align: center;
+
+}
+
+.bingo4>p {
+    margin: 0px 0px 15px;
+    /* padding: 0px 30px; */
+    color: #848484;
+    word-spacing: 3px;
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+
+.bingo4>button {
+    margin: 20px 0px 0px;
+    padding: 12px 40px;
+    border: none !important;
+    color: white;
+    background-color: #28ABE3;
+    border-radius: 35px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    .bingo1>h2,
+    .bingo1>p {
+        height: 100%;
+        width: 100%;
+    }
+
+    .bingo3>img {
+        width: 100%;
+    }
+
+    .bingo2 {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+
+
+/* <!-- ---------------------------------------------------Bingo end--------------------------------------------------------------------------------- --> */
+
+
+/* <!-- ---------------------------------------------------CREAT START--------------------------------------------------------------------------------- --> */
+
+.creat3 {
+    padding: 0px 15px 100px 15px !important;
+}
+
+.creat3 h2 {
+    margin: 0px 0px 8px;
+    font-weight: 600;
+    font-family: 'Catamaran', sans-serif;
+
+}
+
+.creat3>p {
+    margin: 0px 0px 16px;
+    padding: 12px 40px;
+    border: none !important;
+    font-family: 'Source Sans 3', sans-serif;
+
+
+}
+
+.creat4>button {
+    padding: 12px 40px;
+    border: none !important;
+    background-color: #28ABE3;
+    color: white;
+    border-radius: 35px;
+}
+
+
+
+
+
+/* <!-- ---------------------------------------------------CREAT END--------------------------------------------------------------------------------- --> */
+
+
+/* <!-- ---------------------------------------------------award start--------------------------------------------------------------------------------- --> */
+
+.award {
+    padding: 100px 0px;
+    /* width: 100% !important; */
+    /* overflow: hidden; */
+}
+
+.award1 {
+    padding: 0px 15px 50px 15px;
+}
+
+.award1>h2 {
+    margin: 0px 0px 8px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Catamaran', sans-serif;
+
+}
+
+.award1>p {
+    text-align: center;
+    color: #848484;
+    padding: 0px 30px;
+    font-family: 'Source Sans 3', sans-serif;
+
+
+}
+
+.award3 {
+    padding: 0px 40px 30px;
+    /* justify-content: space-evenly; */
+}
+
+.award3>span {
+    font-size: 44px;
+    color: #28ABE3;
+    margin: 0px 0px 0px 69px;
+    /* background-color: #232323; */
+
+}
+
+.award3>h3 {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.award3>h4 {
+    text-align: center;
+    color: #848484;
+    font-family: 'Catamaran', sans-serif;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .award3>span {
+        font-size: 44px;
+        color: #28ABE3;
+        margin: 0px 153px 0px;
+    }
+}
+
+
+
+
+
+/* <!-- ---------------------------------------------------award END--------------------------------------------------------------------------------- --> */
+
+
+/* <!-- ---------------------------------------------------offer start--------------------------------------------------------------------------------- --> */
+.offer {
+    position: relative;
+}
+
+.offer>img {
+    height: 400px;
+
+}
+
+.offer1 {
+    margin: 0px 0px 100px;
+    padding: 100px 0px 0px;
+    position: absolute;
+    top: 0px;
+
+
+}
+
+.offer1>.offer2 span {
+    font-size: 44px;
+    margin: 0px 48%;
+
+}
+
+.offer1>p {
+    text-align: center;
+    margin: 0px 0px 16px;
+    padding: 0px 111px;
+}
+
+.offer3>img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 0px 46.5%;
+}
+
+.offer1>h3,
+.offer1>h6 {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+
+}
+
+.offer1>h3 {
+    font-weight: 600;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .offer {
+        position: relative;
+    }
+
+    .offer>img {
+        height: 463px;
+
+    }
+
+    .offer1 {
+        /* margin: 0px 0px 100px; */
+        /* padding: 100px 0px 0px; */
+        position: absolute;
+        top: 4px;
+
+
+
+    }
+
+    .offer1>p {
+        text-align: center;
+        margin: 0px 0px 16px;
+        /* padding: 0px 111px; */
+    }
+
+    .offer1>.offer2 span {
+        font-size: 44px;
+        margin: -47px 48% 0%;
+
+    }
+
+    .offer3>img {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        margin: 0px 39.5%;
+    }
+}
+
+
+
+
+/* <!-- ---------------------------------------------------offer start--------------------------------------------------------------------------------- --> */
+
+
+
+/* <!-- ------------------------------------------------------post Start----------------------------------------------------------------------------------------------------------  --> */
+.post {
+    padding: 80px 60px 60px;
+    background-color: beige;
+}
+
+.post0>h2 {
+    margin: 0px 0px 8px;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.post0>p {
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    padding: 0px 0px 50px;
+}
+
+.post1 {
+    justify-content: center;
+}
+
+/* .post2{
+    width: 30%;
+    
+} */
+.post4>h3 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+
+
+}
+
+.post4>p {
+    margin: 10px 0px;
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+
+.post4>a>button {
+    margin: 15px 0px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 35px;
+    background-color: #28ABE3;
+    color: white;
+}
+
+/* @media screen and (min-width:320px) and (max-width:480px) {
+    .post2{
+        width: 30% none;
+} */
+
+
+
+
+/* <!-- ------------------------------------------------------post end----------------------------------------------------------------------------------------------------------  --> */
+
+
+/* <!-- ------------------------------------------------------------footer start-------------------------------------------------------------------------------- --> */
+.footer {
+    margin: 0px 0px !important;
+}
+
+.footer2 {
+    padding: 50px 0px;
+}
+
+.footer3>p>a,
+.footer3>p {
+    text-decoration: none;
+    /* color: #ffffff !important; */
+    font-size: 13px !important;
+    transition: all .5s ease;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 100;
+
+}
+
+.footer3>h6 {
+    color: #ffffff;
+    font-family: 'Catamaran', sans-serif;
+
+}
+
+.footer3 p:hover a {
+    color: #28ABE3 !important;
+    font-family: 'Catamaran', sans-serif;
+
+
+}
+
+.footer4 {
+    font-size: 12px;
+    font-family: 'Catamaran', sans-serif;
+    word-spacing: 4px;
+
+}
+
+.footer4 h6 {
+    font-size: 11px;
+    font-family: 'Catamaran', sans-serif;
+    word-spacing: 0px;
+    margin: 5px 0px;
+
+}
+
+
+
+
+/* <!-- ------------------------------------------------------------footer end-------------------------------------------------------------------------------- --> */
+
+
+
+/* <!-- ---------------------------------------------------CREAT START--------------------------------------------------------------------------------- --> */
+
+
+
+.about2 {
+    /* padding: 0px 15px 100px 15px !important; */
+    /* margin-bottom: 15px !important; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/about-header.jpg);
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+
+.about3 h2 {
+    margin: 0px 0px 8px;
+
+    font-weight: 600;
+    align-items: center !important;
+    font-family: 'Catamaran', sans-serif;
+
+}
+
+.about4 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 16px;
+    padding: 12px 16px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {}
+
+
+
+
+
+
+
+
+/* <!-- ---------------------------------------------------CREAT END--------------------------------------------------------------------------------- --> */
+
+/* <!-- ----------------------------------------------------------Designs start---------------------------------------------------------------------------- --> */
+.designs {
+    padding: 70px 0px;
+}
+
+.designs1 {
+    padding: 0px 15px;
+    margin: 20px 0px 0px;
+}
+
+.designs1>h2 {
+    font-family: 'Catamaran', sans-serif;
+    margin: 0px 0px 16px;
+    font-weight: 600;
+}
+
+.designs1>p {
+    margin: 0px 0px 16px;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #848484;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .designs2>img {
+        height: 269.2px !important;
+        width: 405px !important;
+    }
+}
+
+
+/* <!-- ----------------------------------------------------------Designs end---------------------------------------------------------------------------- --> */
+
+
+/* <!-- ---------------------------------------------------------- Vision start---------------------------------------------------------------------------- --> */
+
+.vision {
+    padding: 70px 0px;
+    background-color: aliceblue;
+}
+
+.vision1 {
+    padding: 0px 15px;
+}
+
+.vision1>h3 {
+    font-family: 'Catamaran', sans-serif;
+    margin-top: 0px 0px 8px;
+    font-weight: 600;
+
+}
+
+.vision1>p {
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0px 0px 16px;
+    color: #848484;
+
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .vision1>img {
+        height: 231px;
+        width: 398px
+    }
+
+    .vision1 {
+        margin: 15px 0px;
+    }
+}
+
+
+
+/* <!-- ----------------------------------------------------------Vision end---------------------------------------------------------------------------- --> */
+
+
+/* <!-- ----------------------------------------------------------Video Start---------------------------------------------------------------------------- --> */
+
+.video {
+    padding: 100px 0px;
+}
+
+.video1 {
+    padding: 0px 15px 50px;
+    /* background-color: aqua; */
+}
+
+.video1>h2 {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    margin: 0px 0px 8px;
+}
+
+.video1>p {
+    margin: 0 25%;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #848484;
+    text-align: center;
+
+}
+
+.video2 {
+    padding: 15px;
+    margin: 0px 40%;
+
+}
+
+.video2>h2 {
+    height: 500px !important;
+    width: 600px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .video1>p {
+        margin: 0 10%;
+        font-family: 'Source Sans 3', sans-serif;
+        color: #848484;
+        text-align: center;
+
+    }
+
+    .video2 {
+        padding: 15px;
+        margin: 0px 12%;
+    }
+}
+
+
+
+
+/* <!-- ----------------------------------------------------------Video end---------------------------------------------------------------------------- --> */
+
+/* <!-- ---------------------------------------------------CREAT START--------------------------------------------------------------------------------- --> */
+
+
+
+.box13 h2 {
+
+    font-weight: 600;
+    font-family: 'Catamaran', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+/* <!-- ---------------------------------------------------CREAT END--------------------------------------------------------------------------------- --> */
+
+/* <!-- ---------------------------------------------------------Peak start--------------------------------------------------------------------------------- --> */
+.peak {
+    padding: 100px 0px;
+}
+
+.peak1 {
+    padding: 0px 0px 50px;
+}
+
+.peak1>h2 {
+    text-align: center;
+    font-weight: 600;
+    margin: 0px 0px 8px;
+    font-family: 'Catamaran', sans-serif;
+
+}
+
+.peak1>p {
+    text-align: center;
+    margin: 0px 25%;
+}
+
+.peak4>img {
+    height: 195px;
+    width: 283px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .peak4>img {
+        height: 303px;
+        width: 423px;
+    }
+
+    .peak1>p {
+        text-align: center;
+        margin: 0px 5%;
+    }
+}
+
+
+
+
+
+/* <!-- ---------------------------------------------------------Peak end--------------------------------------------------------------------------------- --> */
+
+
+/* <!-- ------------------------------------------------------post Start----------------------------------------------------------------------------------------------------------  --> */
+.team {
+    padding: 80px 60px 60px;
+    background-color: beige;
+}
+
+.team1>h2 {
+    position: relative;
+    margin: 0px 0px 8px;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.team1>h2::after {
+    position: absolute;
+    content: "";
+    top: 113%;
+    left: 47%;
+    height: 2px;
+    width: 70px;
+    background-color: #232323;
+    z-index: 1;
+
+}
+
+.team1>p {
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    padding: 0px 0px 50px;
+}
+
+.team2 {
+    justify-content: center;
+}
+
+.team5>h5 {
+    font-family: 'Catamaran', sans-serif;
+
+    text-align: center;
+    margin: 0px 0px 5px;
+}
+
+.team5>span {
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #848484;
+    font-size: 14px;
+    margin: 0 36%;
+}
+
+.team5>p {
+    margin: 10px 0px 16px;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #848484;
+
+    padding: 0px 15px;
+    text-align: center;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .team5>span {
+        text-align: center;
+        font-family: 'Source Sans 3', sans-serif;
+        color: #848484;
+        font-size: 14px;
+        margin: 0 31%;
+    }
+}
+
+
+
+
+/* <!-- ------------------------------------------------------post end----------------------------------------------------------------------------------------------------------  --> */
+
+
+/* -------------------------------------------service start-------------------------------------------------------- */
+
+.service {
+    padding: 100px 0px;
+}
+
+
+
+.service2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 204px;
+    /* background-color: #666666; */
+}
+
+.service3 {
+
+    height: 290px;
+    width: 350.4px;
+    /* margin: 0px 10px 25px; */
+    padding: 30px;
+    transition: all ease .5s;
+    /* background-color: gold; */
+
+}
+
+.service1>h2 {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+}
+
+.service1>p {
+    position: relative;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #848484;
+    font-size: 16px;
+    margin: 0px 25%;
+    padding: 0px 0px 100px;
+}
+
+.service1>p::after {
+    position: absolute;
+    content: "";
+    height: 1.5px;
+    width: 100px;
+    margin-bottom: 15px;
+    background-color: #28ABE3;
+    top: 83px;
+    left: 43%;
+}
+
+.service4,
+.service6,
+.service8 {
+    background-color: #28ABE3;
+}
+
+.service10 {
+    margin: 0 40%;
+
+}
+
+.service4>.service10>span,
+.service6>.service10>span,
+.service8>.service10>span {
+    font-size: 56px;
+    color: white;
+    margin: 0px 0px 30px;
+
+}
+
+.service4>h5,
+.service6>h5,
+.service8>h5 {
+    text-align: center;
+    margin: 0px 0px 8px;
+    font-weight: 600;
+    font-family: 'Catamaran', sans-serif;
+    color: #ffffff;
+}
+
+.service4>p,
+.service6>p,
+.service8>p {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0px 0px 16px;
+    color: #ffffff;
+}
+
+
+.service5>.service10>span,
+.service7>.service10>span,
+.service9>.service10>span {
+    font-size: 56px;
+    /* color: white; */
+    margin: 0px 0px 30px;
+
+}
+
+.service5>h5,
+.service7>h5,
+.service9>h5 {
+    text-align: center;
+    margin: 0px 0px 8px;
+    font-weight: 600;
+    font-family: 'Catamaran', sans-serif;
+    /* color: #ffffff; */
+}
+
+.service5>p,
+.service7>p,
+.service9>p {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0px 0px 16px;
+    /* color: #ffffff; */
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .service2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+
+    .service1>p {
+        position: relative;
+        text-align: center;
+        font-family: 'Source Sans 3', sans-serif;
+        color: #848484;
+        font-size: 16px;
+        margin: 0px 1%;
+        padding: 0px 0px 50px;
+    }
+
+    .service1>p::after {
+        position: absolute;
+        content: "";
+        height: 1.5px;
+        width: 100px;
+        background-color: #28ABE3;
+        top: 86%;
+        left: 38%;
+    }
+
+}
+
+
+
+
+
+
+/* -------------------------------------------service end-------------------------------------------------------- */
+
+
+/* <!-- ---------------------------------------------------skill start--------------------------------------------------------------------------------- --> */
+.skill0>h2 {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+}
+
+.skill0>p {
+    position: relative;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #848484;
+    font-size: 16px;
+    margin: 0px 25%;
+    padding: 0px 0px 100px;
+}
+
+.skill0>p::after {
+    position: absolute;
+    content: "";
+    height: 1.5px;
+    width: 100px;
+    margin-bottom: 15px;
+    background-color: #28ABE3;
+    top: 83px;
+    left: 43%;
+}
+
+.skill {
+    padding: 100px 0px;
+}
+
+.skill2 {
+    width: 40%;
+    padding: 0px 15px;
+}
+
+.skill2>h2 {
+
+    font-family: 'Catamaran', sans-serif;
+    /* font-weight: 600; */
+    margin: 0px 0px 16px;
+
+}
+
+.skill2>p {
+    color: #848484;
+    margin: 0px 0px 16px;
+}
+
+.skill2>button {
+    margin: 15px 0px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 35px;
+    background-color: #28ABE3;
+    color: white;
+}
+
+.skill3 {
+    width: 40%;
+    padding: 0px 15px;
+}
+
+.skill3>span {
+    margin: 0px 0px 5px;
+    font-size: 14px;
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+
+.progress {
+    height: 10px !important;
+    margin: 0px 0px 16px;
+
+}
+
+
+.skill4 {
+    padding: 100px 0px;
+}
+
+
+.skill6>img {
+    height: 195px;
+    width: 283px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .skill2 {
+        width: 100%;
+        padding: 0px 15px
+    }
+
+    .skill3 {
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    .skill6>img {
+        height: 200px;
+        width: 307px;
+        margin: 0px 14%;
+    }
+
+    .skill0>p::after {
+        position: absolute;
+        content: "";
+        height: 1.5px;
+        width: 100px;
+        margin-bottom: 15px;
+        background-color: #28ABE3;
+        top: 75%;
+        left: 37%;
+    }
+
+    .skill0>p {
+        position: relative;
+        text-align: center;
+        font-family: 'Source Sans 3', sans-serif;
+        color: #848484;
+        font-size: 16px;
+        margin: 0px 3%;
+        padding: 0px 0px 100px;
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:480px) {}
+
+
+/* <!-- ---------------------------------------------------skill end--------------------------------------------------------------------------------- --> */
+
+
+
+
+/* <!-- --------------------------------------------------------nav-tab start----------------------------------------------------------------------------- --> */
+
+.tab {
+    padding: 100px 0px;
+}
+
+.tab0>h2 {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    margin: 0px 0px 8px;
+    font-weight: 600;
+
+}
+
+.tab0>p {
+    position: relative;
+    text-align: center;
+    color: #848484;
+    font-family: 'Source Sans 3', sans-serif;
+    padding: 0px 0px 70px;
+
+
+}
+
+.tab0>p::before {
+    position: absolute;
+    content: "";
+    height: 1.5px;
+    width: 100px;
+    background-color: #848484;
+    top: 82%;
+    left: 47%;
+}
+
+.tab1>ul {
+    /* height: 50px; */
+    margin: 0px 33%;
+
+}
+
+.nav-pills .nav-link {
+    padding: 10px 15px !important;
+    margin: 0px 0px 8px;
+}
+
+.tab-pane>img {
+    padding: 15px 15px;
+    height: 284px;
+    width: 356px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .tab1>ul {
+        /* height: 50px; */
+        margin: 0px 0%;
+
+    }
+
+    .tab0>p::before {
+        position: absolute;
+        content: "";
+        height: 1.5px;
+        width: 100px;
+        background-color: #848484;
+        top: 82%;
+        left: 39%;
+    }
+}
+
+/* <!-- --------------------------------------------------------nav-tab end----------------------------------------------------------------------------- --> */
+
+
+
+/* <!-- ---------------------------------------------------us start--------------------------------------------------------------------------------- --> */
+
+.us {
+    padding: 100px 0px;
+}
+
+.us1 {
+    margin-top: 15px;
+}
+
+.us2 {
+    width: 40%;
+}
+
+.us2>img {
+    width: 500.1px;
+    height: 376px;
+}
+
+.us3 {
+    width: 40%;
+}
+
+.us3>p {
+    font-family: 'Source Sans 3', sans-serif;
+    color: #848484;
+    margin: 0px 0px 16px;
+}
+
+.us3>h4 {
+    font-family: 'Catamaran', sans-serif;
+    margin: 30px 0px 12px;
+
+}
+
+.us4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.us4>li>span {
+    font-size: 16px;
+    color: #28ABE3;
+    margin: 0px 10px 0px 0px;
+}
+
+.us4>li {
+    list-style: none;
+    margin: 0px 0px 0px 10px;
+    font-size: 13px;
+}
+
+.us3>button {
+    margin: 20px 0px 0px;
+    padding: 12px 40px;
+    border-radius: 35px;
+    background-color: #28ABE3;
+    color: #ffffff;
+    border: none;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .us3 {
+        width: 94%;
+        margin: 15px;
+    }
+
+    .us2>img {
+        width: 246%;
+        height: 354px;
+    }
+}
+
+
+
+/* <!-- ---------------------------------------------------us end--------------------------------------------------------------------------------- --> */
+
+
+/* <!-- -------------------------------------------------contact start-------------------------------------------------------------------- --> */
+
+.contact {
+    padding: 100px 0px;
+}
+
+.contact2 {
+    width: 40%;
+    padding: 0px 15px;
+}
+
+.contact3 {
+    width: 40%;
+    padding: 0px 15px;
+}
+.contact2>h3{
+    font-family: 'Catamaran', sans-serif;
+    margin: 0px 0px 16px;
+}
+.contact2>.para{
+    font-family: 'Source Sans 3', sans-serif;
+    color: #848484;
+    margin: 0px 0px 16px;
+
+}
+.contact2>p{
+    margin: 0px 0px 16px;
+}
+.contact4>span{
+    margin: 0px 0px 0px 15px;
+    border-radius: 50%;
+    padding: 10px;
+    color: #848484;
+    border: 1px solid #848484;
+    transition: all .5s ease;
+}
+.contact4>span:hover{
+    background-color: #28ABE3;
+    border: none;
+    color: #ffffff;
+}
+
+.contact3>.a>input{
+    background-color: #28ABE3 !important;
+    color: #ffffff;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .contact2 {
+        width: 100%;
+        padding: 0px 15px;
+        margin: 0px 0px 10px 0px;
+    }
+    .contact3 {
+        width: 100%;
+        padding: 0px 15px;
+        margin: 10px 0px 0px 0px;
+    }
+}
+
+
+
+
+/* <!-- -------------------------------------------------contact end-------------------------------------------------------------------- --> */
+
+
+/* <!-- -------------------------------------------------Map start-------------------------------------------------------------------- --> */
+.map>iframe{
+    width: 100%;
+}
+
+
+
+
+/* <!-- -------------------------------------------------Map end-------------------------------------------------------------------- --> */
+
+/* <!-- ---------------------------------------------------img start--------------------------------------------------------------------------------- --> */
+
+.img{
+    padding: 100px 100px;
+}
+.card{
+    border: none !important;
+}
+.img1>button{
+    font-size: 14px;
+  margin: 15px 0px;
+  padding: 12px 25px;
+  background-color: #28ABE3;
+  color: #ffffff;
+  border: none;
+  border-radius: 35px;
+  font-family: 'Source Sans 3', sans-serif;
+
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+   .img{
+    padding: 52px 40px;
+    display: block;
+   }
+}
+
+
+
+
+
+/* <!-- ---------------------------------------------------img start--------------------------------------------------------------------------------- --> */
